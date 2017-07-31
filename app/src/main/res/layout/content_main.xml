@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.karthik.mydashboard.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardview_light_background"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="Theme:"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <RadioGroup android:id="@+id/toggleGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/btn_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorGreen"
+                android:checked="false"
+                android:textColor="@android:color/white"
+                android:onClick="onToggle"
+                android:textOff=""
+                android:textOn="ON"
+                android:textSize="10sp"/>
+
+            <ToggleButton
+                android:id="@+id/btn_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/colorBlue"
+                android:onClick="onToggle"
+                android:textOff=""
+                android:textOn="ON"
+                android:textSize="10sp"/>
+
+            <ToggleButton
+                android:id="@+id/btn_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/colorOrange"
+                android:onClick="onToggle"
+                android:textOff=""
+                android:textOn="ON"
+                android:textSize="10sp"/>
+
+            <ToggleButton
+                android:id="@+id/btn_4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/colorPink"
+                android:onClick="onToggle"
+                android:textOff=""
+                android:textOn="ON"
+                android:textSize="10sp"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

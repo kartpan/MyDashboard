@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorPrimaryDarkwithTransparency">#64303f9f</color>
+    <color name="colorBottomSheet">#fbf9f9f9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGreen">#00b950</color>
+    <color name="colorBlue">#0090f7</color>
+    <color name="colorOrange">#ff2f00</color>
+    <color name="colorPink">#ad00b1</color>
+    <color name="colorGreenPrimary">#00b950</color>
+    <color name="colorGreenPrimaryDark">#00973c</color>
+    <color name="colorGreenPrimaryDarkwithTransparency">#aa00973c</color>
+    <color name="colorGreenAccent">#ff0079</color>
+    <color name="colorBluePrimary">#0090f7</color>
+    <color name="colorBluePrimaryDark">#066fd5</color>
+    <color name="colorBluePrimaryDarkwithTransparency">#aa066fd5</color>
+    <color name="colorBlueAccent">#f700fc</color>
+    <color name="colorOrangePrimary">#ff2f00</color>
+    <color name="colorOrangePrimaryDark">#f72000</color>
+    <color name="colorOrangePrimaryDarkwithTransparency">#aaf72000</color>
+    <color name="colorOrangeAccent">#457eff</color>
+    <color name="colorPinkPrimary">#ad00b1</color>
+    <color name="colorPinkPrimaryDark">#8a00a3</color>
+    <color name="colorPinkPrimaryDarkwithTransparency">#aa8a00a3</color>
+    <color name="colorPinkAccent">#009c8a</color>
+</resources>

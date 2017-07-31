@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">My Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_hint">Enter your name ...</string>
+    <string name="email_hint">Enter your email addres ...</string>
+    <string name="key_name">key_name</string>
+    <string name="key_email">key_email</string>
+    <string name="key_avatar">key_avatar</string>
+    <string name="key_theme">key_theme</string>
+    <string name="default_user">Welcome user</string>
+    <string name="save_hint">SAVE</string>
+    <string name="calcel_button">CANCEL</string>
+
+
+    <integer-array name="avatars">
+        <item>@drawable/red_bird</item>
+        <item>@drawable/blue_bird</item>
+        <item>@drawable/green_bird</item>
+        <item>@drawable/white_bird</item>
+        <item>@drawable/black_bird</item>
+        <item>@drawable/yellow_bird</item>
+    </integer-array>
+
+    <array name="avatar_names">
+        <item>Angry Bird - Red</item>
+        <item>Angry Bird - Blue</item>
+        <item>Angry Bird - Green</item>
+        <item>Angry Bird - White</item>
+        <item>Angry Bird - Black</item>
+        <item>Angry Bird - Yellow</item>
+    </array>
+
+
+
+</resources>

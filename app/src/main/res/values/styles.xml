@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/ButtonTheme</item>
+        <item name="buttonStyle">@style/ButtonTheme</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ButtonTheme" parent="android:Widget.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.App.Green" parent="@style/AppTheme">
+        <item name="colorPrimary">@color/colorGreenPrimary</item>
+        <item name="colorPrimaryDark">@color/colorGreenPrimaryDark</item>
+        <item name="colorAccent">@color/colorGreenAccent</item>
+        <item name="android:buttonStyle">@style/GreenButtonTheme</item>
+        <item name="buttonStyle">@style/GreenButtonTheme</item>
+    </style>
+
+    <style name="Theme.App.Green.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GreenButtonTheme" parent="android:Widget.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorGreenAccent</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="Theme.App.Blue" parent="@style/AppTheme">
+        <item name="colorPrimary">@color/colorBluePrimary</item>
+        <item name="colorPrimaryDark">@color/colorBluePrimaryDark</item>
+        <item name="colorAccent">@color/colorBlueAccent</item>
+        <item name="android:buttonStyle">@style/BlueButtonTheme</item>
+        <item name="buttonStyle">@style/BlueButtonTheme</item>
+    </style>
+
+    <style name="Theme.App.Blue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BlueButtonTheme" parent="android:Widget.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorBlueAccent</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="Theme.App.Orange" parent="@style/AppTheme">
+        <item name="colorPrimary">@color/colorOrangePrimary</item>
+        <item name="colorPrimaryDark">@color/colorOrangePrimaryDark</item>
+        <item name="colorAccent">@color/colorOrangeAccent</item>
+        <item name="android:buttonStyle">@style/OrangeButtonTheme</item>
+        <item name="buttonStyle">@style/OrangeButtonTheme</item>
+    </style>
+
+    <style name="Theme.App.Orange.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="OrangeButtonTheme" parent="android:Widget.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorOrangeAccent</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="Theme.App.Pink" parent="@style/AppTheme">
+        <item name="colorPrimary">@color/colorPinkPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPinkPrimaryDark</item>
+        <item name="colorAccent">@color/colorPinkAccent</item>
+        <item name="android:buttonStyle">@style/PinkButtonTheme</item>
+        <item name="buttonStyle">@style/PinkButtonTheme</item>
+    </style>
+
+    <style name="Theme.App.Pink.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PinkButtonTheme" parent="android:Widget.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorPinkAccent</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+</resources>
